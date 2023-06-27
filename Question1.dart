@@ -6,7 +6,7 @@
 
 void main(){
 
-List <int> evenOddNumberList = [5,7,9,2,1,47,3,6,56,4,5,9,23,97,9,87];
+List <int> evenOddNumberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 print("Original List: $evenOddNumberList");
 print("Even Number List:");
 print(evenNumbers(evenOddNumberList)); 
