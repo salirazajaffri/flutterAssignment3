@@ -3,6 +3,8 @@
 // Input: 17
 // Output: 17 is a prime number.
 
+// ignore_for_file: dead_code
+
 void main() {
   int number = 4;
   bool primeNumber = primeOrNot(number);
