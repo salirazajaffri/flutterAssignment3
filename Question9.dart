@@ -1,4 +1,4 @@
-// Implement a function that checks if a given string is a palindrome.
+// Q9.Implement a function that checks if a given string is a palindrome.
 // Example:
 // Input: "radar"
 // Output: "radar" is a palindrome.
@@ -8,7 +8,7 @@ void main() {
 
   String reverseText = txt.split('').reversed.join('');
   print("Input: $txt");
-  
+
   if (txt == reverseText) {
     print("Output: $txt is a palindrome");
   } else {
