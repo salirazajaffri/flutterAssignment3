@@ -12,5 +12,6 @@ void main(){
       greatest = Numbers[i];
     }
   }
-  print(greatest);
+  print("Input: $Numbers");
+  print("Output: Largest element: $greatest");
 }
